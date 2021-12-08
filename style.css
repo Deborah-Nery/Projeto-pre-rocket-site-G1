@@ -1,0 +1,250 @@
+*{
+
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Segoe UI.ttf', sans-serif;
+}
+.fundo-menu{
+
+  display: grid;
+  grid-template-areas: "menu-opçoes logo-menu busca-menu";
+  background-color: #C4170C;
+  border: 1px solid #707070;
+  height: 150px;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.menu-opçoes{
+
+  display: grid;
+  grid-template-areas: "img menu";
+  align-items: center;
+  justify-content: center;
+}
+.menu-opçoes img{
+
+  height: 100%;
+  width: 100%;
+
+}
+.menu-opçoes p{
+
+  color: #FFFFFF;
+  font-size: max(22px, 1.5vw);
+
+}
+.logo-menu{
+
+  display: grid;
+  width: 100%;
+  height: 80%;
+
+}
+.logo-menu img{
+
+  width: 100%;
+  width: 80%;
+
+}
+.busca-menu{
+
+  display: grid;
+  grid-template-areas: "caixa-input-1 caixa-input-2";
+  background-color: #8B0000;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center; 
+
+}
+.busca-menu input{
+  
+  background-color: #8B0000;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+
+
+}
+/* fim do menu */
+/* primeira parte do conteudo */
+.conteudo-primario{
+
+  display: grid;
+  grid-template-areas:"conteudo-um   conteudo-um   conteudo-um"
+                      "conteudo-dois conteudo-dois conteudo-tres"
+                      "conteudo-dois conteudo-dois conteudo-quatro";
+
+  justify-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+.conteudo-um{
+
+  display: grid;
+  grid-area: conteudo-um;  
+
+}
+.conteudo-um h1{
+
+  font-size: max(32px, 2vw);
+  padding: 20px;
+
+}
+.conteudo-dois{
+
+  display: grid;
+  grid-area: conteudo-dois;
+  border: 1px solid #707070;
+  align-content: center;
+
+}
+.conteudo-dois h2{
+
+  color: #8B0000;
+  font-size: max(22px, 1.0vw);
+
+}
+.conteudo-dois p{
+
+  color: #8B0000;
+  font-size: max(18px, 1.0vw);
+
+}
+.conteudo-tres{
+
+  display: grid;
+  grid-area: conteudo-tres;
+  justify-items: center;
+
+}
+.conteudo-tres img{
+
+  height: 80%;
+  width: 80%;
+
+}
+.conteudo-quatro{
+
+  display: grid;
+  grid-area: conteudo-quatro;
+  justify-items: center;
+
+}
+.conteudo-quatro img{
+
+  height: 90%;
+  width: 99%;
+
+}
+/* inicio do segundo conteudo */
+.conteudo-1{
+
+  display: grid;
+  grid-template-areas:"coneteudo-secundario coneteudo-secundario1";
+  gap: 15px;
+  margin:  15px 10px;
+  padding: 20px 0px;
+  align-items: center;
+  border-bottom: 2px solid #707070;
+
+}
+.conteudo-secundario img{
+
+  display: grid;
+  grid-area: coneteudo-secundario;
+  height: 90%;
+  max-width: 90%;
+
+}
+.conteudo-secundario1{
+
+  display: grid;
+  grid-area: coneteudo-secundario1;
+
+}
+.conteudo-secundario1 h3{
+
+  font-size: max(18px, 1.1vw);
+  padding: 10px 0px;
+}
+.conteudo-secundario1 h4{
+
+  font-size: max(25px, 2vw);
+  padding: 10px 0px;
+  color: #C4170C;
+
+
+}.conteudo-secundario1 p{
+
+  font-size: max(18px, 1.1vw);
+  padding: 10px 0px;
+
+}
+.conteudo-secundario1 span{
+
+  font-size: max(18px, 1.1vw);
+  color: #746565;
+  padding: 10px 0px;
+
+}
+
+/*button*/
+
+.veja-mais button{
+  background: #C4170C 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  font: normal normal 18px 18px Segoe UI;
+  font-size:18px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  top: 260px;
+  left: 298px;
+  width: 223px;
+  height: 53px;
+  margin-left: 690px;
+
+}
+
+/*footer*/
+.footer {
+
+  display: grid;
+  grid-template-areas: "footer footer1 div h4 p";
+  background-color: #C4170C;
+  height: 100px;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer h4{
+  text-align: left;
+  margin-left: 10px;
+  font: normal normal 600 16px/16px Segoe UI;
+  font-size:16px;
+background-color: #C4170C;
+ color: #FFFFFF;
+ opacity: 1;
+
+}
+
+
+.footer-1 p{
+  font: normal normal 600 16px/16px Segoe UI;
+ background-color: #C4170C;
+ color: #FFFFFF;
+ letter-spacing: 0px;
+ opacity: 1;
+ text-align: center; 
+ justify-content: space-between;
+}
